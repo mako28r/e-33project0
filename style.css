@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Helvetica', sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 .upperright {
@@ -58,14 +58,16 @@ input[type=text]:hover {
 }
 
 input[type=submit] {
-    background-color: rgb(245,245,245);
+    background-color:#F8F9FA;
     text-align: center;
-    border: 1.1px solid rgb(245,245,245);
-    border-radius: 3px;
-    padding: 7px 12px;
-    margin: 5px;
+    border: 1px solid #F8F9FA;
+    border-radius: 4px;
+    color: #3c4043;
+    font-size: 14px;
+    padding: 0 16px;
+    margin: 11px 4px;
 }
 input[type=submit]:hover {
-    border: 1.1px solid #ddd;
+    border: 1px solid #ddd;
     cursor:pointer;
 }
